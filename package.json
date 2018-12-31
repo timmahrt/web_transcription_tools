@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "description": "A Vue.js project",
   "author": "Tim Mahrt",
-  "license" : "MIT",
+  "license": "MIT",
   "private": false,
   "scripts": {
     "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
@@ -61,6 +61,7 @@
     "postcss-import": "^11.0.0",
     "postcss-loader": "^2.0.8",
     "postcss-url": "^7.2.1",
+    "praatio": "^1.0.0",
     "rimraf": "^2.6.0",
     "selenium-server": "^3.0.1",
     "semver": "^5.3.0",
