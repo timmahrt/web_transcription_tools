@@ -91,9 +91,10 @@ export default {
 
       // https://stackoverflow.com/questions/34156282/how-do-i-save-json-to-local-text-file
       var a = document.createElement('a');
+      document.body.appendChild(a);
       var file = new Blob([outputTxt], {type: this.contentType});
       a.href = URL.createObjectURL(file);
-      a.download = this.saveFileName;
+      a.setAttribute('download', this.saveFileName);
       a.click();
     }
   }
