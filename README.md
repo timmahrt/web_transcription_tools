@@ -1,30 +1,7 @@
-# vue2-first-project
 
-> A Vue.js project
+[![](https://img.shields.io/badge/license-MIT-blue.svg?)](http://opensource.org/licenses/MIT)
 
-## Build Setup
+This is a web-based tool for extracting durations from a series of labeled textgrids.  It was first uploaded March 31st, 2019.
 
-``` bash
-# install dependencies
-npm install
-
-# serve with hot reload at localhost:8080
-npm run dev
-
-# build for production with minification
-npm run build
-
-# build for production and view the bundle analyzer report
-npm run build --report
-
-# run unit tests
-npm run unit
-
-# run e2e tests
-npm run e2e
-
-# run all tests
-npm test
-```
-
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+The tool can be accessed at this link:
+[https://timmahrt.github.io/web_transcription_tools/dist/tg_to_csv.html](https://timmahrt.github.io/web_transcription_tools/dist/tg_to_csv.html)
