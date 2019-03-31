@@ -1,25 +1,35 @@
 <template>
   <div>
     <div v-for="name in tierNameList" v-bind:key="name">
-      <tier-name-row :tierName="name" :checked="true"></tier-name-row>
+      <div>
+        <input type="checkbox" :id="name" :value="name" v-model="checkedList" v-on:change="emitResults">
+        <label :for="name" v-text="name"></label>
+      </div>
     </div>
   </div>
 </template>
 
 <script>
-import TierNameRow from './TierNameRow.vue'
 export default {
-  components: {
-    TierNameRow
-  },
   data () {
     return {
+      checkedList: this.tierNameList
     }
   },
   props: {
     tierNameList: {
       type: Array,
       required: true
+    }
+  },
+  computed: {
+    orderedCheckedItems: function () {
+      return this.tierNameList.filter((name) => this.checkedList.includes(name))
+    }
+  },
+  methods: {
+    emitResults: function () {
+      this.$emit('interface', this.orderedCheckedItems);
     }
   }
 }
