@@ -32,9 +32,9 @@
     <span>
       Don't have any .TextGrid files?  Feel free to play with these:
         <ul>
-          <li><a href="./resources/bobby.TextGrid" download>bobby.TextGrid</a></li>
-          <li><a href="./resources/mary.TextGrid" download>mary.TextGrid</a></li>
-          <li><a href="./resources/conversation.TextGrid" download>conversation.TextGrid</a></li>
+          <li><a href="./assets/bobby.TextGrid" download>bobby.TextGrid</a></li>
+          <li><a href="./assets/mary.TextGrid" download>mary.TextGrid</a></li>
+          <li><a href="./assets/conversation.TextGrid" download>conversation.TextGrid</a></li>
         </ul>
     </span>
     <span class="notice">
