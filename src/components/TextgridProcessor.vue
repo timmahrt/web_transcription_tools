@@ -35,7 +35,7 @@
           <li><a href="./resources/bobby.TextGrid" download>bobby.TextGrid</a></li>
           <li><a href="./resources/mary.TextGrid" download>mary.TextGrid</a></li>
           <li><a href="./resources/conversation.TextGrid" download>conversation.TextGrid</a></li>
-        <ul>
+        </ul>
     </span>
     <span class="notice">
       This tool is powered by your computer.  After the page is loaded, you can go offline and continue to use the tool as long as this page remains open.

@@ -16,8 +16,11 @@ export default {
 
   methods: {
     loadFromLocal (file, handler) {
-      let reader = new FileReader();
+      let reader = new window.FileReader();
+      console.log(reader)
       reader.onload = function (fd) {
+        console.log(file)
+        console.log(fd)
         let data = fd.target.result;
         handler(file, data);
       };

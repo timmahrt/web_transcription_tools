@@ -1,12 +1,17 @@
 <template>
   <div id="app">
-    <router-view/>
+    <TextgridProcessor/>
   </div>
 </template>
 
 <script>
+import TextgridProcessor from './components/TextgridProcessor.vue'
+
 export default {
-  name: 'App'
+  name: 'App',
+  components: {
+    TextgridProcessor
+  }
 }
 </script>
 
